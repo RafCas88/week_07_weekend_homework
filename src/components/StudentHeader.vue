@@ -10,4 +10,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+h2 {
+  font: bold 30px Futura;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
 </style>

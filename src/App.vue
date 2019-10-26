@@ -44,4 +44,11 @@ export default {
 </script>
 
 <style lang="css" scoped>
+#app {
+  background-color: #6EC3F4;
+}
+
+#list-info {
+  display: flex;
+}
 </style>

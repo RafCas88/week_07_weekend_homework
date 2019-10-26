@@ -2,8 +2,10 @@
   <div id="favourite-list">
     <student-header title="Your Favourites"></student-header>
     <ul>
-      <students-favourite-list-item v-for="(student, index) in favourite"
-      :student="student" :key="index"></students-favourite-list-item>
+      <li>
+        <students-favourite-list-item v-for="(student, index) in favourite"
+        :student="student" :key="index"></students-favourite-list-item>
+      </li>
     </ul>
   </div>
 </template>
@@ -23,4 +25,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+ul {
+  padding: 20px;
+}
 </style>

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div >
     <students-list-item v-for="(student, index) in students"
     :student="student" :key="index"></students-list-item>
   </div>
